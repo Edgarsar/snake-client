@@ -16,12 +16,12 @@ Before you can run this client, you will need to be running the server side whic
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
 - Press the `w` `s` `a` `d` keys to control your snake.
-- `w` = "Move up"
+- `w` = "move up"
 
-- `a` =  "Move left"
+- `a` =  "move left"
 
-- `s` =  "Move down"
+- `s` =  "move down"
 
-- `d` =  "Move right"
+- `d` =  "move right"
 
 - `CTRL` + `C` =  "quit the game"
