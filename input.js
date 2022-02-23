@@ -2,7 +2,7 @@
 let connection;
 
 // setup interface to handle user input from stdin
-const setupInput = function(conn) {
+const setupInput = function (conn) {
   connection = conn;
   const stdin = process.stdin;
   stdin.setRawMode(true);
@@ -28,6 +28,10 @@ const handleUserInput = function(data) {
     connection.write('Move: down');
   } else if (data === 'd') {
     connection.write('Move: right');
+  } else if (data === 'q') {
+    connection.write('Say: I\'m winning thisss!');
+  } else if (data === 'z') {
+    connection.write('Say: I\'m the fastessst!');
   }
 };
 
